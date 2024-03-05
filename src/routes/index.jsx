@@ -16,6 +16,7 @@ export const Routes = () => {
       path: "",
       element: <Home />,
     },
+  
     // { path: "*", element: <NotFound /> },
     {
       path: "/project/:id",

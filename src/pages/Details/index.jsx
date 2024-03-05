@@ -69,7 +69,7 @@ const Details = () => {
             </CardActions>
           </Card>
         ) : (
-          <CircularProgress size={"large"} color="secondary" />
+          <CircularProgress size={"small"} color="secondary" />
         )}
       </Container>
     </div>
