@@ -35,10 +35,8 @@ export const Products = () => {
       <Container maxWidth="xl">
         <Grid container spacing={4}>
           {data?.map((elm) => (
-            <Grid item xs={3} key={elm.id}>
-              <>
-                <ProductCard elm={elm} />
-              </>
+            <Grid item  xs={12} sm={6}  md={6} lg={4} xl={3} key={elm.id}>
+              <ProductCard elm={elm} />
             </Grid>
           ))}
         </Grid>
